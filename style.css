@@ -242,6 +242,69 @@ a{
    text-transform: uppercase;
 }
 
+/* Hollidays section csss */
+
+.Hollidays{
+ text-align: center;
+ margin-top: 118px;
+}
+
+.holliday_content h4{
+   color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
+.holliday_content h1{
+   color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+padding: 20px 0;
+}
+.holliday_content p{
+   color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+padding: 10px;
+}
+
+
+.vector{
+ position: relative;
+ margin-top: 50px;
+
+}
+
+.vector-1{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   align-items: center;
+
+
+}
+
+.discount-img{
+   position: absolute;
+   margin-left: 52%;
+
+
+}
+
+.vector-2 {
+  margin-top: -50px;
+}
+
+.vector-2 img{
+   width: 1140px;
+}
 /* Gallary section style */
 
 .gallery {
@@ -370,7 +433,7 @@ footer{
    background-color: #070211;
 }
 
-.footer_header{
+.footer_section{
    max-width: 1140px;
    margin: 0 auto;
    display: flex;
@@ -425,8 +488,20 @@ align-items: center;
 
  }
 
- .social ul li {
+ .social ul li img{
+   width: 50px ;
+   padding: 10px;
+ }
 
+ .footer_section_last{
+   max-width: 1140px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+   padding-bottom: 50px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.11);
  }
 
 
